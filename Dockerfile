@@ -9,6 +9,8 @@ RUN apt-get update -y \
     && apt-get update -y \
     && apt-get clean all \
     && apt-get install -y git colordiff unzip vim tmux xterm zsh curl \
+    && apt-get clean all \
+    && apt-get install -y kali-linux-all \
     && apt-get clean all
 
 RUN git clone https://github.com/jasonchaffee/dotfiles.git /.dotfiles
