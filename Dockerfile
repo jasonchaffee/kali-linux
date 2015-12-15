@@ -13,7 +13,7 @@ RUN apt-get update -y \
 
 RUN git clone https://github.com/jasonchaffee/dotfiles.git /.dotfiles
 
-RUN /.devbox-config/config install
+RUN /.dotfiles/config install
 
 RUN chsh -s $(which zsh)
 RUN su -s /bin/zsh -c '. ~/.zshrc' root
