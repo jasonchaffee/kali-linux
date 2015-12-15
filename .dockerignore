@@ -1,0 +1,29 @@
+# Docker files
+.dockerignore
+#Dockerfile
+
+# Git files
+.git
+.gitignore
+README.md
+
+# SVN files
+.svn
+.svnignore
+
+# Mac OSX files
+.DS_Store
+
+# Eclipse IDE
+.buildpath
+.settings
+.project
+.classpath
+.metadata
+.externalToolBuilders/
+
+# Idea IDE
+.idea
+.idea_modules
+*.iml
+*.launch

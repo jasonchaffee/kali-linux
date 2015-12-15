@@ -1,17 +1,70 @@
+# Compiled Source
 *.class
+*.dll
+*.exe
+*.o
+*.so
+
+# Artifacts
+*.7z
+*.dmg
+*.ear
+*.gz
+*.iso
+*.jar
+*.rar
+*.tar
+*.tar.gz
+*.tgz
+*.war
+*.zip
+
+# Logs
 *.log
 
-# sbt specific
-.cache
-.history
+# OS Files
+.DS_Store
+
+# Maven Build Directory
+target
+
+# Idea IDE
+.idea
+.idea_modules
+*.iml
+*.launch
+
+# Eclipse IDE
+.classpath
+.project
+.jsdtscope
+.settings
+
+# sbt
+.cache/
+.history/
 .lib/
-dist/*
+dist/
 target/
 lib_managed/
 src_managed/
 project/boot/
+project/project/
+project/target/
 project/plugins/project/
+out/
 
-# Scala-IDE specific
+# Scala-IDE
 .scala_dependencies
 .worksheet
+
+# Bower imports
+public/lib/
+public/app/assets/components/
+
+# Node modules
+node_modules/
+
+# Activator
+RUNNING_PID
+
