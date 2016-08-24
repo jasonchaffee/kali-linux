@@ -13,6 +13,7 @@ RUN git clone https://github.com/jasonchaffee/dotfiles.git /.dotfiles
 
 RUN /.dotfiles/config install
 
+ENV TERM xterm-256color
 RUN chsh -s $(which zsh)
 RUN su -s /bin/zsh -c '. ~/.zshrc' root
 
