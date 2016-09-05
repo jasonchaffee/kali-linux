@@ -1,6 +1,6 @@
 FROM kalilinux/kali-linux-docker:latest
 
-MAINTAINER Jason Chaffee <jasonchaffee@gmail.com>
+MAINTAINER Jason Chaffee <jason.chaffee+docker@gmail.com>
 
 ENV DEBIAN_FRONTEND noninteractive
 
