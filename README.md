@@ -3,6 +3,8 @@ This Kali Linux Docker image provides the all metapackage install ontop of the l
 
 [![](https://images.microbadger.com/badges/version/jasonchaffee/kali-linux.svg)](http://microbadger.com/images/jasonchaffee/kali-linux "Get your own version badge on microbadger.com")
 
+[![](https://images.microbadger.com/badges/image/jasonchaffee/kali-linux.svg)](http://microbadger.com/images/jasonchaffee/kali-linux "Get your own image badge on microbadger.com")
+
 # How to use this image
 
 ## start a kali-linux instance
